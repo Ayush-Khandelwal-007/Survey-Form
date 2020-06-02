@@ -22,7 +22,6 @@ body {
   margin: 0;
 }
 
-/* mobile friendly alternative to using background-attachment: fixed */
 body::before {
   content: '';
   position: fixed;
@@ -115,7 +114,6 @@ button {
   text-align: center;
 }
 
-/* form */
 
 form {
   background: var(--color-darkblue-alpha);
